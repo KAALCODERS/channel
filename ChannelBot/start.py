@@ -15,7 +15,7 @@ async def start(bot, msg):
 	)
 	await bot.send_message(
 		msg.chat.id,
-		'Use below buttons to interact with me',
+		'Hey I'm kaal automated channel management bot Use below buttons to interact with me',
 		reply_markup=ReplyKeyboardMarkup(
 			[
 				['+ Add Channels +'],
